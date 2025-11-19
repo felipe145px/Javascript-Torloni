@@ -36,4 +36,18 @@ switch (diadasemana) {
     default:
         console.log("Não existe esse dia!!!")
         break;
+} 
+
+
+
+let dia_semana = prompt("Infrome um nu1menro de 1 a 7")
+
+switch (dia_semana) {
+    case "1":
+        console.log("Segunda-Feira")
+        break;
+
+    default:
+        console.log("O número infroma não é valido")
+        break;
 }
